@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Receptionist Dashboard</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./Javascript/receptionist.js" type="module"></script>
+  </head>
+  <body>
+    <h1>Welcome, Receptionist</h1>
+    <form id="patientForm">
+      <input
+        type="text"
+        id="patientName"
+        placeholder="Patient Name"
+        required
+      /><br />
+      <input
+        type="text"
+        id="patientAge"
+        placeholder="Patient Age"
+        required
+      /><br />
+      <input
+        type="text"
+        id="patientSymptoms"
+        placeholder="Symptoms"
+        required
+      /><br />
+      <button type="submit">Generate Token</button>
+    </form>
+    <div class="nav-buttons">
+      <a href="billing.html"><button>Go to Billing Page</button></a>
+      <a href="patient.html"><button>View Patient Records</button></a>
+    </div>
+  </body>
+</html>
